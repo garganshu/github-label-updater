@@ -30,7 +30,6 @@ async function run() {
           repo: repo,
           issue_number: issue.number
         });
-        console.log("All labels removed successfully")
       } else {
         for(const label of removeLabelsArray) {
           await octokit.rest.issues.removeLabel({
@@ -39,7 +38,6 @@ async function run() {
             issue_number: issue.number,
             name: label.trim(),
           });
-          console.log("Label removed: "+label)
         }
       }
 
@@ -50,9 +48,7 @@ async function run() {
           issue_number: issue.number,
           labels: addLabelsArray
         });
-        console.log("All Labels added successfully")
       }
-      console.log()
     }
 
   } catch (error) {
