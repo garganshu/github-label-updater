@@ -8,7 +8,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/garganshu/github-label-updater)](https://github.com/garganshu/github-label-updater/issues)
 [![GitHub license](https://img.shields.io/github/license/garganshu/github-label-updater)](https://github.com/garganshu/github-label-updater/blob/master/LICENSE)
 
-# Github Issue Updater
+# Github Label Updater
 
 This action can filter issues based on labels and update labels or/and assignees
 
