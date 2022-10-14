@@ -10,9 +10,19 @@
 
 # Github Label Updater
 
-This action can filter issues based on labels and update them
+<a href="https://imgur.com/g2Fn8eB"><img src="https://i.imgur.com/g2Fn8eB.png" title="source: imgur.com" /></a>
 
-Demo
+Updating labels made easy in your workflow using Github Label Updater :white_check_mark:
+
+Why is this plugin in action? :gem:
+
+* Improves the developer productivity to auto update labels :label:
+
+* Configurable action and helps to automate the workflow :hammer:
+
+* Effective CI/CD pipelines :white_check_mark:
+
+How to use
 ----
 
 1. Add Label(s) to Filtered Issues
@@ -26,7 +36,7 @@ add-labels: fixed,enhancement
         
  Before |  After
 -------- | ---
-![caseBefore1](art/ready_for_review_label.png) | ![caseAfter1](art/fixed_enhancement_label.png)
+![Imgur1](https://i.imgur.com/aVIwGJh.png) | ![Imgur2](https://i.imgur.com/hhHuLWU.png)
 
 2. Remove All Label(s) of Filtered Issues
 
@@ -37,7 +47,7 @@ remove-all-labels: true
         
  Before |  After
 -------- | ---
-![caseBefore2](art/ready_for_review_request_label.png) | ![caseAfter2](art/no_label.png)
+![Imgur3](https://i.imgur.com/Qp1BBLM.png) | ![Imgur4](https://i.imgur.com/OyG2jjf.png)
 
 
 Inputs
