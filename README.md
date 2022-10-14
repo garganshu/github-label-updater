@@ -92,7 +92,7 @@ jobs:
     steps:
     - name: update label
       id: updater
-      uses: garganshu/github-issue-updater@v1.0.0
+      uses: garganshu/github-label-updater@v1.0.0
       with:
         owner: ${{secrets.OWNER}}
         repo: ${{secrets.REPO}}
