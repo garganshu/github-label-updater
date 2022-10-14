@@ -2,32 +2,23 @@
 <a href="https://www.buymeacoffee.com/garganshu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
 <a href="https://github.com/garganshu/github-label-updater/releases">![](https://img.shields.io/github/v/release/garganshu/github-label-updater)</a>
 [![](https://img.shields.io/badge/marketplace-github--label--updater-green?style=flat-square)](https://github.com/marketplace/actions/github-label-updater)
 
-[![GitHub stars](https://img.shields.io/github/stars/garganshu/github-label-updater)](https://github.com/garganshu/github-label-updater/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/garganshu/github-label-updater)](https://github.com/garganshu/github-label-updater/issues)
-[![GitHub license](https://img.shields.io/github/license/garganshu/github-label-updater)](https://github.com/garganshu/github-label-updater/blob/master/LICENSE)
 
 # Github Label Updater
 
-<a href="https://imgur.com/g2Fn8eB"><img src="https://i.imgur.com/g2Fn8eB.png" title="source: imgur.com" /></a>
-
 Updating labels made easy in your workflow using Github Label Updater :white_check_mark:
 
+<a href="https://imgur.com/g2Fn8eB"><img src="https://i.imgur.com/g2Fn8eB.png" title="source: imgur.com" /></a>
+
 Why is this plugin in action? :gem:
+----
 
 * Improves the developer productivity to auto update labels :label:
 
@@ -35,7 +26,7 @@ Why is this plugin in action? :gem:
 
 * Effective CI/CD pipelines :white_check_mark:
 
-How to use
+How to use?
 ----
 
 1. Add Label(s) to Filtered Issues
@@ -127,10 +118,8 @@ jobs:
 
 ```
 
-Contributions
--------------
+Projects using Github Label Updater? 🚀
+----
 
-Pull requests and contributions are most welcome.
+### `Frontier` - Your Front Seat to Crypto and DeFi (<a href="https://frontier.xyz/" target="_blank">frontier.xyz</a>)
 
-
-Please drop a star if you like it ❤️
