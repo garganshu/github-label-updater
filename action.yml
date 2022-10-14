@@ -1,0 +1,31 @@
+name: 'Github Label Updater'
+description: 'Update label of github issues'
+branding:
+  icon: calendar
+  color: purple
+inputs:
+  owner: 
+    description: 'Organization or Owner name'
+    required: true
+  repo: 
+    description: 'Gitub Repository name'
+    required: true
+  token: 
+    description: 'Github access token'
+    required: true
+  filter-labels: 
+    description: 'Filter issues with labels'
+    required: false
+  remove-all-labels: 
+    description: 'Remove all existing labels from issues'
+    required: false
+    default: 'false'
+  remove-labels: 
+    description: 'Remove labels from issues'
+    required: false
+  add-labels: 
+    description: 'Add new labels to the issues'
+    required: false
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
