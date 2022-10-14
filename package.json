@@ -10,9 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/garganshu/github-label-updater.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript",
+    "Issue",
+    "Label"
+  ],
+  "author": "garganshu",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/garganshu/github-label-updater/issues"
   },

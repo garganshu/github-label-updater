@@ -25,7 +25,6 @@ async function run() {
     for(const issue of issues) {
         console.log("Issue number: #"+issue.number)
       if(removeAllLabels.toLowerCase().trim().localeCompare('true') == 0) {
-        console.log("Removing all labels..")
         await octokit.rest.issues.removeAllLabels({
           owner: owner,
           repo: repo,
@@ -34,7 +33,6 @@ async function run() {
         console.log("All labels removed successfully")
       } else {
         for(const label of removeLabelsArray) {
-            console.log("Removing label..")
           await octokit.rest.issues.removeLabel({
             owner: owner,
             repo: repo,
@@ -46,7 +44,6 @@ async function run() {
       }
 
       if(addLabelsArray.length > 0) {
-        console.log("Adding label..")
         await octokit.rest.issues.addLabels({
           owner: owner,
           repo: repo,
@@ -55,7 +52,7 @@ async function run() {
         });
         console.log("All Labels added successfully")
       }
-    
+      console.log()
     }
 
   } catch (error) {
