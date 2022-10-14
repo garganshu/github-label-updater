@@ -10,7 +10,7 @@
 
 # Github Label Updater
 
-This action can filter issues based on labels and update labels or/and assignees
+This action can filter issues based on labels and update them
 
 Demo
 ----
