@@ -15,5 +15,6 @@ jobs:
         repo: ${{secrets.REPO}}
         token: ${{secrets.TOKEN}}
         filter-labels: ready-for-review
+        remove-labels: ready-for-review
         remove-all-labels: false
-        add-labels: fixed
+        add-labels: fixed,enhancement
